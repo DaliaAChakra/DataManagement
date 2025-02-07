@@ -1,0 +1,46 @@
+.import-btn {
+  width: 100%;
+  padding: 10px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.import-btn:hover {
+  background: #0056b3;
+}
+
+.file-import {
+  display: none;
+}
+
+.file-import-label {
+  display: inline-flex;
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid gray;
+  color: gray;
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 20px 0;
+}
+
+.file-import-label:hover {
+  background-color: gray;
+  color: white;
+}
+
+.file-import-label:active {
+  background-color: gray;
+  color: white;
+}
+
+.file-import-label svg {
+  margin-left: 8px;
+}
